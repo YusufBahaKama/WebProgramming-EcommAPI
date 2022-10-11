@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{67D103D1-5C91-4B6F-BE6E-C1471749ED77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructre", "Infrastructre", "{B1080AAD-12BC-4E8B-B51A-2D801D3201A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommAPI_Application", "Core\EcommAPI_Application\EcommAPI_Application.csproj", "{CF48EABF-4963-49B4-936B-98ECF251A338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommAPI_Domain", "Core\EcommAPI_Domain\EcommAPI_Domain.csproj", "{8E00AEDD-4B49-4A54-A5B4-13063A25E5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommAPI_Infrastructre", "Infrastructre\EcommAPI_Infrastructre\EcommAPI_Infrastructre.csproj", "{871FE892-EFAB-4B95-A8F9-8DED96312474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommAPI_Persistance", "Infrastructre\EcommAPI_Persistance\EcommAPI_Persistance.csproj", "{2D330D87-610F-4861-86A7-5E85CD0CA815}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C5859FA8-28C4-42BF-B7E6-B35795360F2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommAPI_API", "Presentation\EcommAPI_API\EcommAPI_API.csproj", "{61BE79C9-CCD1-4FA6-A41D-A7C2738EC95F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF48EABF-4963-49B4-936B-98ECF251A338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF48EABF-4963-49B4-936B-98ECF251A338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF48EABF-4963-49B4-936B-98ECF251A338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF48EABF-4963-49B4-936B-98ECF251A338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E00AEDD-4B49-4A54-A5B4-13063A25E5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E00AEDD-4B49-4A54-A5B4-13063A25E5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E00AEDD-4B49-4A54-A5B4-13063A25E5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E00AEDD-4B49-4A54-A5B4-13063A25E5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871FE892-EFAB-4B95-A8F9-8DED96312474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871FE892-EFAB-4B95-A8F9-8DED96312474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871FE892-EFAB-4B95-A8F9-8DED96312474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871FE892-EFAB-4B95-A8F9-8DED96312474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D330D87-610F-4861-86A7-5E85CD0CA815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D330D87-610F-4861-86A7-5E85CD0CA815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D330D87-610F-4861-86A7-5E85CD0CA815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D330D87-610F-4861-86A7-5E85CD0CA815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BE79C9-CCD1-4FA6-A41D-A7C2738EC95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BE79C9-CCD1-4FA6-A41D-A7C2738EC95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BE79C9-CCD1-4FA6-A41D-A7C2738EC95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BE79C9-CCD1-4FA6-A41D-A7C2738EC95F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF48EABF-4963-49B4-936B-98ECF251A338} = {67D103D1-5C91-4B6F-BE6E-C1471749ED77}
+		{8E00AEDD-4B49-4A54-A5B4-13063A25E5A3} = {67D103D1-5C91-4B6F-BE6E-C1471749ED77}
+		{871FE892-EFAB-4B95-A8F9-8DED96312474} = {B1080AAD-12BC-4E8B-B51A-2D801D3201A6}
+		{2D330D87-610F-4861-86A7-5E85CD0CA815} = {B1080AAD-12BC-4E8B-B51A-2D801D3201A6}
+		{61BE79C9-CCD1-4FA6-A41D-A7C2738EC95F} = {C5859FA8-28C4-42BF-B7E6-B35795360F2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {863B11BA-518D-4E14-BB95-872CD43EC667}
+	EndGlobalSection
+EndGlobal
